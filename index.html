@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquimetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>Parquimetro</header>
+
+<div>    
+    <h1>Tabela de valores:</h1>
+    <p>Preço</p>    <p>Tempo</p>
+    <p>R$:1,OO</p>  <p>30 minutos<p>
+    <p>R$:1,75</p>  <p>60 minutos</p>
+    <p>R$:3,00</p>  <p>120 (tempo máximo)</p>
+</div>
+
+<section>
+    <h2>Escolha o tempo</h2>
+    <select id="tempo">
+    
+        <option value="1.00">30 Minutos</option>
+        <option value="1.75">60 Minutos</option>
+        <option value="3.00">120 Minutos</option>
+ 
+    </select>
+    <h3>Valor a pagar: <input type="number" id="dinheiro"></h3>
+    <button onclick = "pagar()" >Pagar</button>
+    <p id="resultado"></p>
+
+    <script src="scripts.js"></script>
+</section>
+</body>
+</html>

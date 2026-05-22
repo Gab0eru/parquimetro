@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+header{
+    font-size: 80px;
+    font-family: system-ui, -apple-system;
+
+    margin-left: 400px;
+    margin-bottom: 60px;
+}
+
+div{
+    font-family: system-ui, -apple-system, sans-serif;
+    
+    border-left: 490px;
+    border-right: 200px;
+    border-top: 100px;
+    border-bottom: 100px;
+
+
+}
