@@ -12,7 +12,7 @@ class parquimetro{
     }
 
     else if(this.dinheiro > this.tempo){
-        document.getElementById("resultado").innerHTML = "pagamento realizado " + this.troco.toFixed(2) + " de troco";
+        document.getElementById("resultado").innerHTML = "pagamento realizado R$" + this.troco.toFixed(2) + " de troco";
     }
 
     else if(this.dinheiro < this.tempo){
