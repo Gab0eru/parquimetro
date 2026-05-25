@@ -1,23 +1,49 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: gray;
+    color: gray;
 }
 header{
     font-size: 80px;
     font-family: system-ui, -apple-system;
-
-    margin-left: 400px;
-    margin-bottom: 60px;
+    background-color: rgb(55, 55, 209);
+    text-align: center;
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: gray;
 }
 
+/**TABELA DE PREÇOS**/
 div{
-    font-family: system-ui, -apple-system, sans-serif;
+font-family: system-ui, -apple-system, sans-serif;
+    background-color: rgb(55, 55, 209);
+    text-align: center;
+    
     
     border-left: 490px;
     border-right: 200px;
+    border-radius: 20px;
     border-top: 100px;
-    border-bottom: 100px;
+    border-bottom: 200px;
+    box-shadow: gray;
 
+    margin-left: 400px;
+    margin-right: 390px;
+}
+/**FUNCIONAMENTO**/
+section{
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: rgb(55, 55, 209);
+    text-align: center;
 
+    border-left: 490px;
+    border-right: 200px;
+    border-radius: 20px;
+    border-top: 100px;
+    border-bottom: 200px;
+    box-shadow: black;
+
+    margin-left: 400px;
+    margin-right: 390px;
 }
